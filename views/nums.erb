@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<p>
+<%if @operation == "add"%>
+<%=@num1.to_i + @num2.to_i%>
+<%elsif @operation == "subtract"%>
+<%=@num1.to_i - @num2.to_i%>
+<%elsif @operation == "multiply"%>
+<%=@num1.to_i * @num2.to_i%>
+<%elsif @operation == "divide"%>
+<%=@num1.to_i / @num2.to_i%>
+<%end%>
+</p>
+</body>
+</html>
